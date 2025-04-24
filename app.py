@@ -229,15 +229,18 @@ Scroll down to explore insightful visualizations and interpretations based on re
 
 with tab2:
     st.markdown("### Model Accuracy Comparison")
-    st.write("This section compares the performance of different sentiment classification models:")
+    st.write("""Understanding the effectiveness of different sentiment classification models is crucial for selecting the right approach to analyze social media reviews. In this section, we dive into a performance comparison of three popular models — VADER, Naive Bayes, and Support Vector Machine (SVM) — tested on reviews of The Ordinary skincare brand.
+By evaluating their accuracy, we can determine which model is best suited for capturing sentiments in user-generated content.
 
-    # Create a small DataFrame of your accuracy scores
+The following chart visually represents the accuracy of each model, highlighting the accuracy of each approach.""")
+
+    
     accuracy_df = pd.DataFrame({
         "Model": ["VADER", "Naive Bayes", "SVM"],
         "Accuracy": [71.17, 60.87, 43.48]
     })
 
-    # Build the Plotly bar chart
+    
     fig_acc = px.bar(
         accuracy_df,
         x="Model",
