@@ -8,6 +8,20 @@ tab1, tab2 = st.tabs(["Sentiment Analysis On Social Media Reviews on the brand, 
 
 with tab1:
     st.markdown("<h1 style='text-align: center; color: #B9D9EB; font-family: monospace;'>Sentiment Analysis Dashboard</h1>", unsafe_allow_html=True)
+    st.markdown("""
+Welcome to this sentiment analysis dashboard focused on **customer reviews for the popular skincare brand _The Ordinary_**, gathered from various social media platforms.
+
+In today’s digital age, online reviews and social media conversations are powerful indicators of public opinion. This project uses **Natural Language Processing (NLP)** techniques to analyze over 340 reviews, classifying them into positive, negative, or neutral sentiments.
+
+The goal is to uncover:
+- How customers **truly feel** about _The Ordinary's_ products
+- And how this data can be used to **enhance customer experience** and improve brand strategy.
+- How to identify **early warning signs** of customer dissatisfaction for better **crisis management**
+- How brands can use sentiment insights to **respond more effectively** to public feedback
+- And how influencer content and social conversations **shape brand perception** online
+Scroll down to explore insightful visualizations and interpretations based on real customer voices!
+""")
+    
     df = pd.read_excel("vader_custom_scored_reviews.xlsx")
 
     df['vader_label'] = df['vader_label'].str.lower()
