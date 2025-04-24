@@ -8,7 +8,7 @@ tab1, tab2 = st.tabs(["Sentiment Analysis On Social Media Reviews on the brand, 
 
 with tab1:
     st.markdown("<h1 style='text-align: center; color: #B9D9EB; font-family: monospace;'>Sentiment Analysis Dashboard</h1>", unsafe_allow_html=True)
-    df = pd.read_excel("/content/drive/MyDrive/Colab Notebooks/vader_custom_scored_reviews.xlsx")
+    df = pd.read_excel("vader_custom_scored_reviews.xlsx")
 
     df['vader_label'] = df['vader_label'].str.lower()
 
