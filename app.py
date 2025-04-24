@@ -229,7 +229,7 @@ Scroll down to explore insightful visualizations and interpretations based on re
 
 with tab2:
     st.markdown("### Model Accuracy Comparison")
-    st.write("""Understanding the effectiveness of different sentiment classification models is crucial for selecting the right approach to analyze social media reviews. In this section, we dive into a performance comparison of three popular models — VADER, Naive Bayes, and Support Vector Machine (SVM) — tested on reviews of The Ordinary skincare brand.
+    st.markdown("""Understanding the effectiveness of different sentiment classification models is crucial for selecting the right approach to analyze social media reviews. In this section, we dive into a performance comparison of three popular models — VADER, Naive Bayes, and Support Vector Machine (SVM) — tested on reviews of The Ordinary skincare brand.
 By evaluating their accuracy, we can determine which model is best suited for capturing sentiments in user-generated content.
 
 The following chart visually represents the accuracy of each model, highlighting the accuracy of each approach.""")
