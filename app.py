@@ -15,9 +15,9 @@ In today’s digital age, online reviews and social media conversations are powe
 
 The goal is to uncover:
 - How customers **truly feel** about _The Ordinary's_ products
-- And how this data can be used to **enhance customer experience** and improve brand strategy.
+- How this data can be used to **enhance customer experience** and improve brand strategy.
 - How to identify **early warning signs** of customer dissatisfaction for better **crisis management**
-- How brands can use sentiment insights to **respond more effectively** to public feedback
+- How the brand can use sentiment insights to **respond more effectively** to public feedback
 - And how influencer content and social conversations **shape brand perception** online
 Scroll down to explore insightful visualizations and interpretations based on real customer voices!
 """)
