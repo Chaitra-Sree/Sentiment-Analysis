@@ -19,6 +19,7 @@ The goal is to uncover:
 - How to identify **early warning signs** of customer dissatisfaction for better **crisis management**
 - How the brand can use sentiment insights to **respond more effectively** to public feedback
 - And how influencer content and social conversations **shape brand perception** online
+
 Scroll down to explore insightful visualizations and interpretations based on real customer voices!
 """)
     
